@@ -1,13 +1,13 @@
-import Button from './components/button/Button';
+import Counter from './components/counter/Counter';
+// import QuestionGame from './components/question-game/QuestionGame';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
 		<div>
 			<GlobalStyles />
-			<h1>Curso de React</h1>
-			<Button color='steelblue'>Click Me!</Button>
-			<Button color='#f0f'>Click Me!</Button>
+			<Counter />
+			{/* <QuestionGame /> */}
 		</div>
 	);
 };
